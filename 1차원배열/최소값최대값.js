@@ -5,8 +5,8 @@ function sol() {
 
     numbers.sort((a, b) => a - b);
     for (let i in numbers) {
-    min = numbers[0];
-    max = numbers[i];
+        min = numbers[0];
+        max = numbers[i];
     }
     console.log(min, max);
 }
