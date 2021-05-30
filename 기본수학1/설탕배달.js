@@ -1,4 +1,3 @@
-const { count } = require("console");
 const readline = require("readline");
 const rl = readline.createInterface({
     input: process.stdin,
@@ -8,7 +7,6 @@ const rl = readline.createInterface({
 let input = 0;
 rl.on("line", function (line) {
     input = parseInt(line);
-    rl.close();
 }).on("close", function () {
     solution(input);
     process.exit();
